@@ -1,0 +1,432 @@
+src/domain/Character.java:14:	Possible God Class (WMC=51, ATFD=29, TCC=10.672%)
+src/domain/Character.java:14:	The class 'Character' has a Modified Cyclomatic Complexity of 2 (Highest = 10).
+src/domain/Character.java:14:	The class 'Character' has a Standard Cyclomatic Complexity of 2 (Highest = 15).
+src/domain/Character.java:14:	This class has too many methods, consider refactoring it.
+src/domain/Character.java:16:	Field comments are required
+src/domain/Character.java:17:	Field comments are required
+src/domain/Character.java:18:	Field comments are required
+src/domain/Character.java:20:	Field comments are required
+src/domain/Character.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/domain/Character.java:20:	To avoid mistakes add a comment at the beginning of the imagePlayer field if you want a default access modifier
+src/domain/Character.java:20:	Use explicit scoping instead of the default package private level
+src/domain/Character.java:21:	Avoid using redundant field initializer for 'speedY'
+src/domain/Character.java:21:	Field comments are required
+src/domain/Character.java:21:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/domain/Character.java:22:	Avoid using redundant field initializer for 'speedX'
+src/domain/Character.java:22:	Field comments are required
+src/domain/Character.java:22:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/domain/Character.java:23:	Field comments are required
+src/domain/Character.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/domain/Character.java:30:	Parameter 'name' is not assigned and could be declared final
+src/domain/Character.java:30:	Parameter 'point' is not assigned and could be declared final
+src/domain/Character.java:30:	Parameter 'team' is not assigned and could be declared final
+src/domain/Character.java:30:	The constructor 'Character(String, String, int)' has a NCSS line count of 16.
+src/domain/Character.java:37:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/domain/Character.java:39:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/domain/Character.java:44:	Avoid variables with short names like rm
+src/domain/Character.java:44:	Local variable 'rm' could be declared final
+src/domain/Character.java:69:	Parameter 'point' is not assigned and could be declared final
+src/domain/Character.java:73:	Public method and constructor comments are required
+src/domain/Character.java:78:	Public method and constructor comments are required
+src/domain/Character.java:85:	Parameter 'bol' is not assigned and could be declared final
+src/domain/Character.java:89:	Public method and constructor comments are required
+src/domain/Character.java:93:	Public method and constructor comments are required
+src/domain/Character.java:97:	Parameter 'code' is not assigned and could be declared final
+src/domain/Character.java:97:	Parameter 'size' is not assigned and could be declared final
+src/domain/Character.java:97:	Parameter 'value' is not assigned and could be declared final
+src/domain/Character.java:97:	Public method and constructor comments are required
+src/domain/Character.java:97:	The method 'speed' has a Modified Cyclomatic Complexity of 10.
+src/domain/Character.java:97:	The method 'speed' has a Standard Cyclomatic Complexity of 15.
+src/domain/Character.java:97:	The method 'speed(KeyCode, double, int)' has a NCSS line count of 46.
+src/domain/Character.java:97:	The method 'speed(KeyCode, double, int)' has a cyclomatic complexity of 15.
+src/domain/Character.java:102:	Avoid using if...else statements without curly braces
+src/domain/Character.java:102:	This statement should have braces
+src/domain/Character.java:103:	Avoid using if statements without curly braces
+src/domain/Character.java:104:	This statement should have braces
+src/domain/Character.java:109:	Avoid using if...else statements without curly braces
+src/domain/Character.java:109:	This statement should have braces
+src/domain/Character.java:110:	Avoid using if statements without curly braces
+src/domain/Character.java:111:	This statement should have braces
+src/domain/Character.java:116:	Avoid using if...else statements without curly braces
+src/domain/Character.java:116:	This statement should have braces
+src/domain/Character.java:117:	Avoid using if statements without curly braces
+src/domain/Character.java:118:	This statement should have braces
+src/domain/Character.java:123:	Avoid using if...else statements without curly braces
+src/domain/Character.java:123:	This statement should have braces
+src/domain/Character.java:124:	Avoid using if statements without curly braces
+src/domain/Character.java:125:	This statement should have braces
+src/domain/Character.java:144:	Parameter 'myScene' is not assigned and could be declared final
+src/domain/Character.java:144:	Parameter 'sprite' is not assigned and could be declared final
+src/domain/Character.java:144:	Public method and constructor comments are required
+src/domain/Character.java:145:	Potential violation of Law of Demeter (method chain calls)
+src/domain/Character.java:145:	Potential violation of Law of Demeter (method chain calls)
+src/domain/Character.java:146:	Potential violation of Law of Demeter (method chain calls)
+src/domain/Character.java:146:	Potential violation of Law of Demeter (method chain calls)
+src/domain/Character.java:147:	Potential violation of Law of Demeter (method chain calls)
+src/domain/Character.java:147:	Potential violation of Law of Demeter (method chain calls)
+src/domain/Character.java:147:	Potential violation of Law of Demeter (method chain calls)
+src/domain/Character.java:147:	Potential violation of Law of Demeter (method chain calls)
+src/domain/Character.java:154:	Avoid empty if statements
+src/domain/Character.java:163:	Parameter 'size' is not assigned and could be declared final
+src/domain/Character.java:164:	Avoid using if statements without curly braces
+src/domain/Character.java:164:	Potential violation of Law of Demeter (method chain calls)
+src/domain/Character.java:165:	This statement should have braces
+src/domain/Character.java:166:	Avoid using if statements without curly braces
+src/domain/Character.java:167:	This statement should have braces
+src/domain/Character.java:168:	Avoid using if statements without curly braces
+src/domain/Character.java:168:	Potential violation of Law of Demeter (method chain calls)
+src/domain/Character.java:169:	This statement should have braces
+src/domain/Character.java:170:	Avoid using if statements without curly braces
+src/domain/Character.java:171:	This statement should have braces
+src/domain/Character.java:177:	Parameter 'size' is not assigned and could be declared final
+src/domain/Character.java:199:	Parameter 'points' is not assigned and could be declared final
+src/domain/Character.java:206:	Document empty method body
+src/domain/Character.java:213:	Document empty method body
+src/domain/Character.java:222:	Potential violation of Law of Demeter (method chain calls)
+src/domain/Character.java:223:	Comment is too large: Too many lines
+src/domain/Character.java:224:	Comment is too large: Line too long
+src/domain/Character.java:227:	Comment is too large: Line too long
+src/domain/Character.java:230:	Comment is too large: Line too long
+src/domain/Character.java:233:	Comment is too large: Line too long
+src/domain/Character.java:236:	Comment is too large: Line too long
+src/domain/Character.java:239:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/domain/Character.java:239:	Potential violation of Law of Demeter (method chain calls)
+src/domain/Character.java:239:	Potential violation of Law of Demeter (method chain calls)
+src/domain/Character.java:240:	Potential violation of Law of Demeter (method chain calls)
+src/domain/Character.java:242:	Comment is too large: Too many lines
+src/domain/Character.java:243:	Comment is too large: Line too long
+src/domain/Character.java:246:	Comment is too large: Line too long
+src/domain/Character.java:249:	Comment is too large: Line too long
+src/domain/Character.java:252:	Comment is too large: Line too long
+src/domain/Character.java:255:	Comment is too large: Line too long
+src/domain/Character.java:258:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/domain/Character.java:258:	Potential violation of Law of Demeter (method chain calls)
+src/domain/Character.java:258:	Potential violation of Law of Demeter (method chain calls)
+src/domain/Character.java:259:	Potential violation of Law of Demeter (method chain calls)
+src/domain/Character.java:266:	Document empty method body
+src/domain/Character.java:273:	Document empty method body
+src/domain/Character.java:280:	Parameter 'myScene' is not assigned and could be declared final
+src/domain/Character.java:281:	Avoid using if statements without curly braces
+src/domain/Character.java:281:	Potential violation of Law of Demeter (method chain calls)
+src/domain/Character.java:282:	Potential violation of Law of Demeter (method chain calls)
+src/domain/Character.java:282:	Potential violation of Law of Demeter (method chain calls)
+src/domain/Character.java:282:	This statement should have braces
+src/domain/Character.java:283:	Avoid using if statements without curly braces
+src/domain/Character.java:283:	Potential violation of Law of Demeter (method chain calls)
+src/domain/Character.java:284:	Potential violation of Law of Demeter (method chain calls)
+src/domain/Character.java:284:	Potential violation of Law of Demeter (method chain calls)
+src/domain/Character.java:284:	This statement should have braces
+src/domain/Character.java:285:	Avoid using if statements without curly braces
+src/domain/Character.java:285:	Potential violation of Law of Demeter (method chain calls)
+src/domain/Character.java:286:	This statement should have braces
+src/domain/Character.java:287:	Avoid using if statements without curly braces
+src/domain/Character.java:287:	Potential violation of Law of Demeter (method chain calls)
+src/domain/Character.java:288:	This statement should have braces
+src/domain/Map.java:3:	Avoid unused imports such as 'java.util.Random'
+src/domain/Map.java:5:	Avoid short class names like Map
+src/domain/Map.java:5:	Header comments are required
+src/domain/Map.java:5:	The class 'Map' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+src/domain/Map.java:7:	Field comments are required
+src/domain/Map.java:8:	Field comments are required
+src/domain/Map.java:10:	Parameter 'size' is not assigned and could be declared final
+src/domain/Map.java:10:	Parameter 'type' is not assigned and could be declared final
+src/domain/Map.java:10:	Public method and constructor comments are required
+src/domain/Map.java:21:	Parameter 'size' is not assigned and could be declared final
+src/domain/Map.java:31:	Parameter 'type' is not assigned and could be declared final
+src/domain/Sprite.java:3:	Avoid unused imports such as 'java.util.Random'
+src/domain/Sprite.java:8:	Header comments are required
+src/domain/Sprite.java:8:	The class 'Sprite' has a Standard Cyclomatic Complexity of 3 (Highest = 19).
+src/domain/Sprite.java:10:	Field comments are required
+src/domain/Sprite.java:10:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/domain/Sprite.java:10:	To avoid mistakes add a comment at the beginning of the spriteImg field if you want a default access modifier
+src/domain/Sprite.java:10:	Use explicit scoping instead of the default package private level
+src/domain/Sprite.java:11:	Comment is too large: Line too long
+src/domain/Sprite.java:11:	Field comments are required
+src/domain/Sprite.java:12:	Field comments are required
+src/domain/Sprite.java:13:	Avoid using redundant field initializer for 'isDead'
+src/domain/Sprite.java:13:	Field comments are required
+src/domain/Sprite.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/domain/Sprite.java:15:	Avoid variables with short names like x
+src/domain/Sprite.java:15:	Avoid variables with short names like y
+src/domain/Sprite.java:15:	Parameter 'power' is not assigned and could be declared final
+src/domain/Sprite.java:15:	Parameter 'type' is not assigned and could be declared final
+src/domain/Sprite.java:15:	Parameter 'x' is not assigned and could be declared final
+src/domain/Sprite.java:15:	Parameter 'y' is not assigned and could be declared final
+src/domain/Sprite.java:15:	Public method and constructor comments are required
+src/domain/Sprite.java:15:	The constructor 'Sprite' has a Standard Cyclomatic Complexity of 19.
+src/domain/Sprite.java:15:	The constructor 'Sprite(int, int, int, int)' has a NCSS line count of 64.
+src/domain/Sprite.java:15:	The constructor 'Sprite(int, int, int, int)' has a cyclomatic complexity of 19.
+src/domain/Sprite.java:17:	Switch statements should have a default label
+src/domain/Sprite.java:19:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/domain/Sprite.java:22:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/domain/Sprite.java:25:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/domain/Sprite.java:28:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/domain/Sprite.java:31:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/domain/Sprite.java:34:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/domain/Sprite.java:37:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/domain/Sprite.java:40:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/domain/Sprite.java:43:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/domain/Sprite.java:46:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/domain/Sprite.java:49:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/domain/Sprite.java:52:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/domain/Sprite.java:55:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/domain/Sprite.java:58:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/domain/Sprite.java:61:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/domain/Sprite.java:64:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/domain/Sprite.java:67:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/domain/Sprite.java:70:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/domain/Sprite.java:90:	Parameter 'power' is not assigned and could be declared final
+src/domain/Sprite.java:94:	Public method and constructor comments are required
+src/domain/Sprite.java:95:	System.out.println is used
+src/domain/Sprite.java:102:	Parameter 'type' is not assigned and could be declared final
+src/domain/Sprite.java:106:	Parameter 'life' is not assigned and could be declared final
+src/domain/Sprite.java:106:	Public method and constructor comments are required
+src/domain/Sprite.java:110:	A getX() method which returns a boolean should be named isX()
+src/domain/Sprite.java:110:	Public method and constructor comments are required
+src/domain/SpriteManager.java:16:	Each class should declare at least one constructor
+src/domain/SpriteManager.java:18:	Field comments are required
+src/domain/SpriteManager.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/domain/SpriteManager.java:18:	Private field 'allSprites' could be made final; it is only initialized in the declaration or constructor.
+src/domain/SpriteManager.java:19:	Field comments are required
+src/domain/SpriteManager.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/domain/SpriteManager.java:19:	Private field 'spritestokill' could be made final; it is only initialized in the declaration or constructor.
+src/domain/SpriteManager.java:33:	Parameter 'sprites' is not assigned and could be declared final
+src/domain/SpriteManager.java:49:	Parameter 'sprites' is not assigned and could be declared final
+src/domain/SpriteManager.java:50:	Avoid using Literals in Conditional Statements
+src/domain/SpriteManager.java:53:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/AlertBox.java:3:	Avoid unused imports such as 'javafx.application.Platform'
+src/presentation/AlertBox.java:12:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/presentation/AlertBox.java:12:	Header comments are required
+src/presentation/AlertBox.java:14:	Parameter 'message' is not assigned and could be declared final
+src/presentation/AlertBox.java:14:	Parameter 'title' is not assigned and could be declared final
+src/presentation/AlertBox.java:14:	Public method and constructor comments are required
+src/presentation/AlertBox.java:14:	The method 'displayAlert(String, String)' has a NCSS line count of 14.
+src/presentation/AlertBox.java:15:	Local variable 'window' could be declared final
+src/presentation/AlertBox.java:21:	Local variable 'label' could be declared final
+src/presentation/AlertBox.java:22:	Local variable 'buttonOK' could be declared final
+src/presentation/AlertBox.java:23:	Avoid variables with short names like e
+src/presentation/AlertBox.java:25:	Local variable 'layout' could be declared final
+src/presentation/AlertBox.java:26:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/AlertBox.java:29:	Local variable 'scene' could be declared final
+src/presentation/ConfirmBox.java:3:	Avoid unused imports such as 'javafx.application.Platform'
+src/presentation/ConfirmBox.java:12:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/presentation/ConfirmBox.java:12:	Header comments are required
+src/presentation/ConfirmBox.java:14:	Field comments are required
+src/presentation/ConfirmBox.java:14:	To avoid mistakes add a comment at the beginning of the answer field if you want a default access modifier
+src/presentation/ConfirmBox.java:14:	Use explicit scoping instead of the default package private level
+src/presentation/ConfirmBox.java:16:	Parameter 'message' is not assigned and could be declared final
+src/presentation/ConfirmBox.java:16:	Parameter 'title' is not assigned and could be declared final
+src/presentation/ConfirmBox.java:16:	Public method and constructor comments are required
+src/presentation/ConfirmBox.java:16:	The method 'display(String, String)' has a NCSS line count of 21.
+src/presentation/ConfirmBox.java:17:	Local variable 'window' could be declared final
+src/presentation/ConfirmBox.java:23:	Local variable 'label' could be declared final
+src/presentation/ConfirmBox.java:24:	Local variable 'buttonYes' could be declared final
+src/presentation/ConfirmBox.java:25:	Avoid variables with short names like e
+src/presentation/ConfirmBox.java:29:	Local variable 'buttonNo' could be declared final
+src/presentation/ConfirmBox.java:30:	Avoid variables with short names like e
+src/presentation/ConfirmBox.java:35:	Local variable 'layout' could be declared final
+src/presentation/ConfirmBox.java:36:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/ConfirmBox.java:39:	Local variable 'scene' could be declared final
+src/presentation/Game.java:1:	A high number of imports can indicate a high degree of coupling within an object.
+src/presentation/Game.java:10:	Avoid unused imports such as 'javafx.beans.value.ChangeListener'
+src/presentation/Game.java:11:	Avoid unused imports such as 'javafx.beans.value.ObservableValue'
+src/presentation/Game.java:21:	Avoid unused imports such as 'javafx.scene.control.RadioButton'
+src/presentation/Game.java:23:	Avoid unused imports such as 'javafx.scene.control.Toggle'
+src/presentation/Game.java:24:	Avoid unused imports such as 'javafx.scene.control.ToggleGroup'
+src/presentation/Game.java:27:	Avoid unused imports such as 'javafx.scene.input.KeyCode'
+src/presentation/Game.java:30:	Avoid unused imports such as 'javafx.scene.paint.Color'
+src/presentation/Game.java:31:	Avoid unused imports such as 'javafx.scene.shape.Circle'
+src/presentation/Game.java:32:	Avoid unused imports such as 'javafx.scene.shape.Rectangle'
+src/presentation/Game.java:36:	Avoid short class names like Game
+src/presentation/Game.java:36:	Header comments are required
+src/presentation/Game.java:36:	This class has too many methods, consider refactoring it.
+src/presentation/Game.java:38:	Field comments are required
+src/presentation/Game.java:38:	This final field could be made static
+src/presentation/Game.java:39:	Field comments are required
+src/presentation/Game.java:39:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/presentation/Game.java:40:	Field comments are required
+src/presentation/Game.java:40:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/presentation/Game.java:41:	Field comments are required
+src/presentation/Game.java:41:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/presentation/Game.java:42:	Field comments are required
+src/presentation/Game.java:42:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/presentation/Game.java:43:	Avoid unused private fields such as 'myframe'.
+src/presentation/Game.java:43:	Field comments are required
+src/presentation/Game.java:43:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/presentation/Game.java:43:	Perhaps 'myframe' could be replaced by a local variable.
+src/presentation/Game.java:44:	Field comments are required
+src/presentation/Game.java:44:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/presentation/Game.java:44:	Private field 'manager' could be made final; it is only initialized in the declaration or constructor.
+src/presentation/Game.java:45:	Field comments are required
+src/presentation/Game.java:45:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/presentation/Game.java:45:	Private field 'myStage' could be made final; it is only initialized in the declaration or constructor.
+src/presentation/Game.java:46:	Avoid using redundant field initializer for 'freeze'
+src/presentation/Game.java:46:	Field comments are required
+src/presentation/Game.java:46:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/presentation/Game.java:47:	Avoid unused private fields such as 'time'.
+src/presentation/Game.java:47:	Avoid using redundant field initializer for 'time'
+src/presentation/Game.java:47:	Field comments are required
+src/presentation/Game.java:47:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/presentation/Game.java:48:	Avoid unused private fields such as 'speed'.
+src/presentation/Game.java:48:	Field comments are required
+src/presentation/Game.java:48:	Private field 'speed' could be made final; it is only initialized in the declaration or constructor.
+src/presentation/Game.java:49:	Field comments are required
+src/presentation/Game.java:49:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/presentation/Game.java:55:	Avoid variables with short names like s
+src/presentation/Game.java:55:	Parameter 's' is not assigned and could be declared final
+src/presentation/Game.java:55:	Public method and constructor comments are required
+src/presentation/Game.java:59:	Public method and constructor comments are required
+src/presentation/Game.java:59:	The method 'startmenu()' has a NCSS line count of 57.
+src/presentation/Game.java:64:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:65:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:68:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:68:	The String literal "Map 1" appears 4 times in this file; the first occurrence is on line 68
+src/presentation/Game.java:69:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:76:	Avoid variables with short names like e
+src/presentation/Game.java:77:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:77:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:77:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:80:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:80:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:86:	System.out.println is used
+src/presentation/Game.java:87:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:88:	System.out.println is used
+src/presentation/Game.java:89:	Avoid variables with short names like ex
+src/presentation/Game.java:95:	Local variable 'label4' could be declared final
+src/presentation/Game.java:96:	Local variable 'list' could be declared final
+src/presentation/Game.java:97:	Local variable 'ranking' could be declared final
+src/presentation/Game.java:99:	Local variable 'items' could be declared final
+src/presentation/Game.java:100:	This for loop can be replaced by a foreach loop
+src/presentation/Game.java:101:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:101:	Potential violation of Law of Demeter (object not created locally)
+src/presentation/Game.java:107:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:109:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:111:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:113:	Local variable 'layout1' could be declared final
+src/presentation/Game.java:114:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:116:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:119:	Avoid variables with short names like e
+src/presentation/Game.java:120:	Local variable 'result' could be declared final
+src/presentation/Game.java:129:	Public method and constructor comments are required
+src/presentation/Game.java:129:	The method 'startmenuAdmin()' has a NCSS line count of 64.
+src/presentation/Game.java:132:	Local variable 'nameInput' could be declared final
+src/presentation/Game.java:135:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:136:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:137:	Local variable 'label5' could be declared final
+src/presentation/Game.java:139:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:140:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:141:	Local variable 'label3' could be declared final
+src/presentation/Game.java:143:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:144:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:147:	Avoid variables with short names like e
+src/presentation/Game.java:148:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:148:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:148:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:151:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:151:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:157:	System.out.println is used
+src/presentation/Game.java:158:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:159:	System.out.println is used
+src/presentation/Game.java:160:	Avoid variables with short names like ex
+src/presentation/Game.java:166:	Local variable 'label4' could be declared final
+src/presentation/Game.java:167:	Local variable 'list' could be declared final
+src/presentation/Game.java:168:	Local variable 'ranking' could be declared final
+src/presentation/Game.java:170:	Local variable 'items' could be declared final
+src/presentation/Game.java:171:	This for loop can be replaced by a foreach loop
+src/presentation/Game.java:172:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:172:	Potential violation of Law of Demeter (object not created locally)
+src/presentation/Game.java:177:	Local variable 'manageSongs' could be declared final
+src/presentation/Game.java:179:	Avoid variables with short names like ex
+src/presentation/Game.java:182:	Local variable 'manageUsers' could be declared final
+src/presentation/Game.java:184:	Avoid variables with short names like ex
+src/presentation/Game.java:189:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:191:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:193:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:195:	Local variable 'layout1' could be declared final
+src/presentation/Game.java:196:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:199:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:202:	Avoid variables with short names like e
+src/presentation/Game.java:203:	Local variable 'result' could be declared final
+src/presentation/Game.java:213:	Parameter 'elapsedTime' is not assigned and could be declared final
+src/presentation/Game.java:213:	Public method and constructor comments are required
+src/presentation/Game.java:224:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:227:	System.out.println is used
+src/presentation/Game.java:231:	Parameter 'size' is not assigned and could be declared final
+src/presentation/Game.java:234:	Local variable 'scene' could be declared final
+src/presentation/Game.java:240:	Parameter 'size' is not assigned and could be declared final
+src/presentation/Game.java:240:	Public method and constructor comments are required
+src/presentation/Game.java:240:	The method 'init(int)' has a NCSS line count of 15.
+src/presentation/Game.java:243:	Found 'DD'-anomaly for variable 'imageMap' (lines '243'-'245').
+src/presentation/Game.java:243:	Found 'DD'-anomaly for variable 'imageMap' (lines '243'-'247').
+src/presentation/Game.java:244:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:245:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/presentation/Game.java:245:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:245:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:247:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/presentation/Game.java:247:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:247:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:249:	Local variable 'mantel' could be declared final
+src/presentation/Game.java:252:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:254:	Avoid variables with short names like e
+src/presentation/Game.java:258:	Parameter 'root' is not assigned and could be declared final
+src/presentation/Game.java:258:	Parameter 'totalNum' is not assigned and could be declared final
+src/presentation/Game.java:259:	Avoid variables with short names like r
+src/presentation/Game.java:259:	Found 'DU'-anomaly for variable 'r' (lines '259'-'269').
+src/presentation/Game.java:259:	Local variable 'r' could be declared final
+src/presentation/Game.java:261:	Local variable 'type' could be declared final
+src/presentation/Game.java:262:	Local variable 'power' could be declared final
+src/presentation/Game.java:263:	Local variable 'randX' could be declared final
+src/presentation/Game.java:264:	Local variable 'randY' could be declared final
+src/presentation/Game.java:265:	Avoid instantiating new objects inside loops
+src/presentation/Game.java:265:	Avoid variables with short names like s
+src/presentation/Game.java:265:	Local variable 's' could be declared final
+src/presentation/Game.java:267:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:271:	Found 'UR'-anomaly for variable 'sprite' (lines '271'-'273').
+src/presentation/Game.java:272:	Local variable 'sprite' could be declared final
+src/presentation/Game.java:274:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:279:	Parameter 'message' is not assigned and could be declared final
+src/presentation/Game.java:279:	Parameter 'title' is not assigned and could be declared final
+src/presentation/Game.java:279:	Public method and constructor comments are required
+src/presentation/Game.java:279:	The method 'login(String, String)' has a NCSS line count of 21.
+src/presentation/Game.java:280:	Local variable 'window' could be declared final
+src/presentation/Game.java:286:	Local variable 'label' could be declared final
+src/presentation/Game.java:287:	Local variable 'password' could be declared final
+src/presentation/Game.java:288:	Local variable 'enter' could be declared final
+src/presentation/Game.java:289:	Avoid variables with short names like e
+src/presentation/Game.java:289:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:290:	Avoid if (x != y) ..; else ..;
+src/presentation/Game.java:290:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:297:	Avoid variables with short names like e
+src/presentation/Game.java:301:	Local variable 'layout' could be declared final
+src/presentation/Game.java:302:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/Game.java:305:	Local variable 'scene' could be declared final
+src/presentation/Game.java:311:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/presentation/Game.java:311:	Public method and constructor comments are required
+src/presentation/Game.java:312:	Avoid variables with short names like n
+src/presentation/Game.java:312:	Use one line for each declaration, it enhances code readability.
+src/presentation/Game.java:325:	Found 'UR'-anomaly for variable 'sprite' (lines '325'-'327').
+src/presentation/Game.java:326:	Local variable 'sprite' could be declared final
+src/presentation/Game.java:331:	Found 'UR'-anomaly for variable 'sprite' (lines '331'-'333').
+src/presentation/Game.java:332:	Local variable 'sprite' could be declared final
+src/presentation/Game.java:335:	Potential violation of Law of Demeter (method chain calls)
+src/presentation/MainClass.java:10:	Header comments are required
+src/presentation/MainClass.java:12:	Field comments are required
+src/presentation/MainClass.java:12:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/presentation/MainClass.java:12:	Private field 'fps' could be made final; it is only initialized in the declaration or constructor.
+src/presentation/MainClass.java:13:	Field comments are required
+src/presentation/MainClass.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/presentation/MainClass.java:15:	Parameter 'args' is not assigned and could be declared final
+src/presentation/MainClass.java:15:	Public method and constructor comments are required
+src/presentation/MainClass.java:20:	Avoid variables with short names like s
+src/presentation/MainClass.java:20:	Parameter 's' is not assigned and could be declared final
+src/presentation/MainClass.java:20:	The method 'start(Stage)' has a NCSS line count of 19.
+src/presentation/MainClass.java:26:	Local variable 'result' could be declared final
+src/presentation/MainClass.java:27:	Found 'DD'-anomaly for variable 'scene' (lines '27'-'29').
+src/presentation/MainClass.java:27:	Found 'DD'-anomaly for variable 'scene' (lines '27'-'32').
+src/presentation/MainClass.java:28:	Avoid if (x != y) ..; else ..;
+src/presentation/MainClass.java:38:	Local variable 'frame' could be declared final
+src/presentation/MainClass.java:39:	Avoid variables with short names like e
+src/presentation/MainClass.java:40:	Local variable 'animation' could be declared final
+src/presentation/MainClass.java:42:	Potential violation of Law of Demeter (method chain calls)
